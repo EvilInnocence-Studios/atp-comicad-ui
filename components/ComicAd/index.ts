@@ -13,7 +13,8 @@ const registerSizedAd = (name: string, description: string, width: number, heigh
         overridable<ISizedComicAdInputProps>(connectSizedComicAd(SizedComicAdComponent(width, height))),
         {
             name,
-            category: "ComicAd",
+            category: "Marketing",
+            subCategory: "Ads",
             icon,
             displayName: name,
             description,

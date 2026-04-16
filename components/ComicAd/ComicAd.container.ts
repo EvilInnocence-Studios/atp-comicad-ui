@@ -23,7 +23,8 @@ export const ComicAd = withLayoutMetadata(
     overridable<IComicAdInputProps>(connect(ComicAdComponent)),
     {
         name: "Custom Size",
-        category: "ComicAd",
+        category: "Marketing",
+        subCategory: "Ads",
         icon,
         displayName: "Comic Ad",
         description: "The comic ad",
